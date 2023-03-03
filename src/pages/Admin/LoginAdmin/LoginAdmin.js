@@ -1,9 +1,14 @@
 import React from "react";
+import "./LoginAdmin.scss";
+import { LoginForm } from "../../../components/Admin";
 
 export function LoginAdmin() {
   return (
-    <div>
-      <p>aqui va el login del admin</p>
+    <div className="login-admin">
+      <div className="login-admin__content">
+        <h1>Entral al panel</h1>
+        <LoginForm />
+      </div>
     </div>
   );
 }
