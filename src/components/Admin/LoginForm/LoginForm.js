@@ -9,6 +9,7 @@ import { toast } from "react-toastify";
 import "./LoginForm.scss";
 
 export function LoginForm() {
+  const { login } = useAuth();
   const formik = useFormik({
     initialValues: initialValues(),
     validationSchema: Yup.object(validationSchema()),
@@ -16,7 +17,7 @@ export function LoginForm() {
       try {
         const response = await loginApi(fromValue);
         const { access } = response;
-        console.log(access);
+        login(access);
       } catch (error) {
         toast.error(error.message);
       }
