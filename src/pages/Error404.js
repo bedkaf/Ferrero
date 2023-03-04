@@ -1,6 +1,6 @@
 import React from "react";
 import "./Error404.scss";
-import Words from "../utils/word";
+import Words from "../utils/Words";
 
 export function Error404() {
   return (

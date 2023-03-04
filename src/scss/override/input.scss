@@ -1,0 +1,14 @@
+.ui.input {
+    input{
+        background-color: aliceblue !important;
+        border-color: black;
+        border-radius: 10px !important;
+
+        &:focus{
+            background-color: aliceblue !important;
+            box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.2) !important;
+            -webkit-box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.2) !important;
+            -moz-box-shadow: 0 0 10 0 rgba(0, 0, 0, 0.2) !important;
+        }
+    }
+}
