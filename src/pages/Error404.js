@@ -18,9 +18,8 @@ export function Error404() {
                 <span className="glyphicon glyphicon-home"></span>
                 {Words.TakeMeHome + " "}
               </a>
-              <a href="/" className="btn btn-default btn-lg">
-                <span className="glyphicon glyphicon-envelope"></span> Contact
-                Support{" "}
+              <a href="/admin" className="btn btn-default btn-lg">
+                <span className="glyphicon glyphicon-envelope">Admin</span>
               </a>
             </div>
           </div>

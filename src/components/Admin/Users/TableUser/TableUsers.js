@@ -51,17 +51,10 @@ function Actions(props) {
 
   return (
     <Table.Cell textAlign="right">
-      <Button
-        icon
-        onClick={() => console.log(`Actualizar: ${user.first_name}`)}
-      >
+      <Button icon onClick={() => updateUser(user)}>
         <Icon name="pencil" />
       </Button>
-      <Button
-        icon
-        negative
-        onClick={() => console.log(`Eliminar: ${user.first_name}`)}
-      >
+      <Button icon negative onClick={() => onDeleteUser(user)}>
         <Icon name="close" />
       </Button>
     </Table.Cell>
