@@ -13,6 +13,9 @@ const Words = {
   delete: "Eliminar",
   user_deletion_message: "Esta a 1 paso de eliminar el usuario:",
   loading: "Cargando.....",
+  new: "Nuevo",
+  categories: "Categorias",
+  products: "productos",
 };
 
 export default Words;
