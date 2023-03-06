@@ -12,7 +12,7 @@ const Words = {
   update: "Actualizar",
   delete: "Eliminar",
   user_deletion_message: "Esta a 1 paso de eliminar el usuario:",
-  loading: "Cargando",
+  loading: "Cargando.....",
 };
 
 export default Words;
