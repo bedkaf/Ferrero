@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Icon, Menu } from "semantic-ui-react";
 import { useAuth } from "../../../hooks";
 import "./TopMenu.scss";
@@ -22,7 +23,9 @@ export function TopMenu() {
       <Menu.Menu position="right">
         <Menu.Item>Hola, {renderName()}</Menu.Item>
         <Menu.Item onClick={logout}>
-          <Icon name="sign-out" />
+          <Link to={"/admin"}>
+            <Icon name="sign-out" />
+          </Link>
         </Menu.Item>
       </Menu.Menu>
     </Menu>
