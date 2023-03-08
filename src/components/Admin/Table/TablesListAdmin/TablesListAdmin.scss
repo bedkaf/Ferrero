@@ -1,0 +1,26 @@
+.main{
+  padding-top: 20px;
+  .tables-list-admin {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__reaload {
+      margin: 0;
+      position: absolute;
+      top: 30px;
+      right: 40px;
+    }
+
+    &__reaload-toggle {
+      position: absolute !important;
+      top: 38px;
+      right: 120px;
+      display: flex;
+      align-items: center;
+
+      &__automatic{
+        margin-right: 10px ;
+      }
+    }
+  }
+}

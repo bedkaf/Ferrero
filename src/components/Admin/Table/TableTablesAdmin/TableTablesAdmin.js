@@ -60,7 +60,7 @@ export function TableTablesAdmin(props) {
 }
 
 function Actions(props) {
-  const { table, updateTable, deleteTable, showQr } = props;
+  const { table, updateTable, deleteTable } = props;
 
   return (
     <Table.Cell textAlign="right">
