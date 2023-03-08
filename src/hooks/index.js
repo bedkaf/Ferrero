@@ -4,3 +4,4 @@ export * from "./useCategory";
 export * from "./useProduct";
 export * from "./useTable";
 export * from "./usePayment";
+export * from "./useOrder";
